@@ -1,3 +1,4 @@
+# This program was modified by Brayden Bourgeois / N01708893
 import socket
 import argparse
 
@@ -54,4 +55,5 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print("\n[!] Server stopped manually.")
     except Exception as e:
+
         print(f"[!] Error: {e}")
